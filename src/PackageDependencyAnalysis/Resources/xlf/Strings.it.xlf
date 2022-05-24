@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="it" original="../Strings.resx">
+    <body>
+      <trans-unit id="AssetsFileMissingRuntimeIdentifier">
+        <source>NETSDK1047: Assets file '{0}' doesn't have a target for '{1}'. Ensure that restore has run and that you have included '{2}' in the TargetFrameworks for your project. You may also need to include '{3}' in your project's RuntimeIdentifiers.</source>
+        <target state="new">NETSDK1047: Assets file '{0}' doesn't have a target for '{1}'. Ensure that restore has run and that you have included '{2}' in the TargetFrameworks for your project. You may also need to include '{3}' in your project's RuntimeIdentifiers.</target>
+        <note>{StrBegin="NETSDK1047: "}</note>
+      </trans-unit>
+      <trans-unit id="AssetsFileMissingTarget">
+        <source>NETSDK1005: Assets file '{0}' doesn't have a target for '{1}'. Ensure that restore has run and that you have included '{2}' in the TargetFrameworks for your project.</source>
+        <target state="new">NETSDK1005: Assets file '{0}' doesn't have a target for '{1}'. Ensure that restore has run and that you have included '{2}' in the TargetFrameworks for your project.</target>
+        <note>{StrBegin="NETSDK1005: "}</note>
+      </trans-unit>
+      <trans-unit id="AssetsFileNotFound">
+        <source>NETSDK1004: Assets file '{0}' not found. Run a NuGet package restore to generate this file.</source>
+        <target state="new">NETSDK1004: Assets file '{0}' not found. Run a NuGet package restore to generate this file.</target>
+        <note>{StrBegin="NETSDK1004: "}</note>
+      </trans-unit>
+      <trans-unit id="AssetsFileNotSet">
+        <source>NETSDK1063: The path to the project assets file was not set. Run a NuGet package restore to generate this file.</source>
+        <target state="new">NETSDK1063: The path to the project assets file was not set. Run a NuGet package restore to generate this file.</target>
+        <note>{StrBegin="NETSDK1063: "}</note>
+      </trans-unit>
+      <trans-unit id="AssetsFilePathNotRooted">
+        <source>NETSDK1006: Assets file path '{0}' is not rooted. Only full paths are supported.</source>
+        <target state="new">NETSDK1006: Assets file path '{0}' is not rooted. Only full paths are supported.</target>
+        <note>{StrBegin="NETSDK1006: "}</note>
+      </trans-unit>
+      <trans-unit id="ErrorReadingAssetsFile">
+        <source>NETSDK1060: Error reading assets file: {0}</source>
+        <target state="new">NETSDK1060: Error reading assets file: {0}</target>
+        <note>{StrBegin="NETSDK1060: "}</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
